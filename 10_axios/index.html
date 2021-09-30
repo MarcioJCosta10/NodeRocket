@@ -1,0 +1,46 @@
+<body>
+    <main>
+
+    </main>
+
+</body>
+<script>
+    // 1 Usando a fetch API
+    // 2 Demora um pouco entregar -- Promisse
+    // 3 Para esperar essa promessa precisamos do await
+    // 4 awayt está dentro de uma funcionalidade async 
+    // 5 try{}catch(){} tratar possível erro
+    async function getContent() {
+        try {
+            const response = await fetch('http://localhost:8090/');
+            //console.log(response);
+            const data = await response.json()
+            // console.log(data)
+            show(data)
+
+        } catch (error) {
+
+            console.log('ERROOOU');
+        }
+    }
+    //6 usar a funcionalidade
+    getContent()
+
+    // 7 Criar uma função para colocar os dados na tela
+    function show(users){
+        let output = ''  
+
+        for(let user of users){
+
+            output += `<li> ${user.name} </li>
+                       <li>${user.username}</li>
+                       <li>${user.email}</li> <br>`
+            
+        }
+         
+
+        document.querySelector('main').innerHTML = output 
+    }
+
+</script>
+

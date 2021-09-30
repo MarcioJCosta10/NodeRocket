@@ -1,0 +1,13 @@
+{
+  "name": "2_DesafioFlagsProcess",
+  "version": "1.0.0",
+  "description": "- [] Crie 2 arquivos JavaScript\r - [] O primeiro irá exportar a função getFlag() , essa função receberá um argumento do tipo String, essa função deverá \r fazer uma busca dentro do array de argv a flag e retornar o valor da flag",
+  "type": "module",
+  "main": "1_arquivo_desafio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

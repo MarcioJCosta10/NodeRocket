@@ -1,0 +1,23 @@
+{
+  "name": "desafio-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "learning",
+    "nodejs"
+  ],
+  "author": "Marcio Costa",
+  "license": "MIT",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "inquire": "^0.4.8",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {
+    "cfonts": "^2.9.3"
+  }
+}
