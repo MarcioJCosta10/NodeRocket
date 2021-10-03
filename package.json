@@ -1,0 +1,24 @@
+{
+  "name": "NodeJSRocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "yarn": "^1.22.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcioJCosta10/NodeRocket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcioJCosta10/NodeRocket/issues"
+  },
+  "homepage": "https://github.com/MarcioJCosta10/NodeRocket#readme"
+}
